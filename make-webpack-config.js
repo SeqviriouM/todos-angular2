@@ -20,7 +20,7 @@ module.exports = function MakeDefaultConfig(options) {
   var config = {
     entry: [
       'webpack-hot-middleware/client',
-      './app/main'
+      './app/app'
     ],
     output: {
       path: path.join(__dirname, 'static'),
